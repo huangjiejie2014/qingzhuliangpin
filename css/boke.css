@@ -1,0 +1,257 @@
+body{
+    background-color: #f2f2f2;
+}
+.content_center {
+    width: 1140px;
+    height: 1400px;
+    background: #fff;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+/*第一个盒子*/
+.first_box {
+    width: 536px;
+    height: 340px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    float: left;
+    position: absolute;
+    left: 140px;
+    top: 110px;
+
+}
+.first_box .big_box a {
+    display: block;
+
+}
+.first_box .big_box img{
+    display: block;
+    width: 466px;
+    height: 214px;
+    margin-left: 34px;
+    text-align: center;
+    margin-top: 32px;
+}
+.content_center .line {
+    display: block;
+    width: 466px;
+    height: 1px;
+    background: #ccc;
+    text-align: center;
+    margin-top: 36px;
+    margin-left: 34px;
+}
+.content_center .mark_name {
+    display: block;
+    text-align: center;
+    width: 446px;
+    height: 32px;
+    line-height: 32px;
+    margin: 10px 34px;
+}
+.content_center .mark_name>img {
+    float: left;
+    display: block;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.content_center .mark_name span {
+    font-size: 14px;
+    float: left;
+}
+.content_center .mark_name span.number {
+    font-size: 12px;
+    color: #c0b6aa;
+    float: right;
+    margin-right: -20px;
+}
+/*第二个盒子*/
+.second_box {
+    width: 520px;
+    height: 312px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    float: right;
+    position: absolute;
+    right: 130px;
+    top: 110px;
+}
+.second_box .big_box {
+    display: block;
+    float: left;
+}
+.second_box .big_box img {
+    width: 180px;
+    height: 198px;
+    display: block;
+    margin-left: 30px;
+    margin-top: 22px;
+    float: left;
+    margin-bottom: 30px;
+}
+.second_box .right_txt {
+    width: 288px;
+    height: 200px;
+    text-align: center;
+
+    float: right;
+    margin-top: 50px;
+    display: block;
+}
+.second_box .right_txt>a {
+    display: block;
+    font-size: 18px;
+    color: #555;
+    margin-top: 60px;
+}
+.second_box .right_txt>span {
+    font-size: 14px;
+    color: #aaa;
+    display: block;
+    margin-top: 10px;
+
+}
+.second_box .line {
+    margin-top: 210px;
+}
+.content_center .second_box .mark_name {
+    width: 520px;
+    height: 32px;
+
+}
+.content_center .second_box .mark_name>img {
+
+
+}
+.second_box .mark_name  span.number {
+    position: absolute;
+    top: 260px;
+    right: 34px;
+}
+
+.third_box {
+    width: 536px;
+    height: 410px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    float: left;
+    position: absolute;
+    left: 140px;
+    top: 470px;
+}
+.third_box .big_box {
+    display: block;
+    float: left;
+}
+.third_box .big_box img {
+    width: 462px;
+    height: 288px;
+    display: block;
+    text-align: center;
+    margin-left: 34px;
+    margin-top: 28px;
+    margin-bottom: 40px;
+}
+.third_box .line {
+    position: absolute;
+    left: 0;
+    top: 320px;
+
+}
+.fourth_box {
+    width: 520px;
+    height: 306px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    float: right;
+    position: absolute;
+    right: 130px;
+    top: 445px;
+}
+.fourth_box .big_box {
+    display: block;
+    float: left;
+}
+.fourth_box .big_box>img {
+    display: block;
+    width: 194px;
+    height: 190px;
+    float: left;
+    margin-top: 22px;
+    margin-left: 20px;
+
+}
+.fourth_box .right_txt {
+    display: block;
+    float: left;
+    width: 280px;
+    height: 254px;
+}
+.fourth_box .right_txt>a {
+    font-size: 18px;
+    color: #555;
+   text-align: center;
+    display: block;
+    margin-top: 100px;
+}
+.fourth_box .right_txt>span {
+    font-size: 14px;
+    color: #aaa;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.fourth_box .line {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 220px;
+}
+.fifth_box {
+    width: 536px;
+    height: 410px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    float: left;
+    position: absolute;
+    left: 140px;
+    top: 900px;
+}
+.fifth_box a{
+    display: block;
+    padding: 20px;
+
+}
+.fifth_box a h4 {
+    color: #555;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.fifth_box a p {
+    display: block;
+    font-size: 14px;
+    color: #aaa;
+    line-height: 26px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.fifth_box .line {
+    margin-top: 10px;
+}
+.first_box:hover,
+.second_box:hover,
+.third_box:hover,
+.fourth_box:hover,
+.fifth_box:hover {
+    box-shadow: 2px 2px 14px #ccc;
+}
+.second_box .right_txt>a:hover,
+.fourth_box .right_txt>a:hover {
+    text-decoration: underline;
+}
+.fifth_box a p:hover {
+    text-decoration: underline;
+}

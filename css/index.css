@@ -1,0 +1,356 @@
+/*banner*/
+.swiper-container {
+    height: 420px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: 68px;
+}
+.swiper-container .swiper-slide {
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+}
+
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 4px;
+    display: inline-block;
+    border-radius: 0%;
+    background: #fff;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #c78a49;
+}
+
+/*新品推荐*/
+.qz_container h2 {
+    text-align: center;
+    margin-top: 120px;
+    color: #000;
+    line-height: 10px;
+}
+.qz_container .small_title {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    color: #999;
+}
+.qz_container .picture ul{
+    display: block;
+    float: left;
+    text-align: center;
+}
+.qz_container .picture ul li {
+    float: left;
+}
+.qz_container .picture ul li a {
+    display: block;
+    padding: 0 7px;
+}
+.qz_container .picture ul.first_pic {
+    position: relative;
+}
+.qz_container .picture ul.second_pic {
+    position: absolute;
+    top: 0;
+    left:0;
+}
+.qz_container .picture ul li a img {
+    display: block;
+    width: 270px;
+    height: 270px;
+}
+.qz_container .picture ul li a span {
+    display: block;
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+}
+.qz_container .picture ul li a span.price {
+    color: red;
+    font-weight: normal;
+    margin-top: -40px;
+    margin-bottom: 50px;
+}
+/*左右箭头*/
+.new_product .arrow-left {
+    position: absolute;
+    top: 720px;
+    left: 68px;
+    font-size: 30px;
+    color: #c2c2c2;
+
+}
+.new_product .arrow-right {
+    position: absolute;
+    top: 720px;
+    right: 68px;
+    font-size: 30px;
+    color: #c2c2c2;
+
+}
+/*专题活动*/
+.qz_container1 h2,
+.qz_container2 h2 {
+    margin-top: 0;
+}
+.Thematic_activities .left_box  {
+    float: left;
+    width: 682px;
+    height: 382px;
+    display: block;
+}
+.Thematic_activities .left_box li a {
+    display: block;
+    width: 680px;
+    height: 380px;
+    overflow: hidden;
+    position: relative;
+}
+.Thematic_activities .left_box .outline {
+    width: 640px;
+    height: 340px;
+    border: 5px solid #fff;
+    background: transparent;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: none;
+}
+
+.Thematic_activities .left_box img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s;
+}
+.Thematic_activities .left_box img:hover {
+    transform: scale(1.2);
+}
+.Thematic_activities .right_box {
+    width: 450px;
+    height: 184px;
+    float: left;
+    margin-left: 8px;
+    display: block;
+    margin-bottom: 260px;
+
+}
+.Thematic_activities .right_box a {
+    width: 450px;
+    height: 184px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+.Thematic_activities .right_box a img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: -17px;
+    transition: all 0.4s;
+}
+.Thematic_activities .right_box a img:hover {
+    transform: scale(1.2);
+}
+/*青竹良品 你的首选*/
+.first_chioce .content_pic ul {
+    display: block;
+    float: left;
+   margin-bottom: 12px;
+
+}
+.first_chioce .content_pic ul li {
+    float: left;
+    display: block;
+    margin: 0 3px;
+    background: #f8f8f8;
+    width: 220px;
+    height: 310px;
+    position: relative;
+}
+.first_chioce .content_pic ul li .black {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.2);
+    width: 220px;
+    height: 310px;
+    display: none;
+}
+
+.first_chioce .content_pic ul li a.special>img {
+    display: block;
+    width: 220px;
+    height: 220px;
+}
+.first_chioce .content_pic ul li a.title_02 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    display: block;
+
+}
+.first_chioce .content_pic ul li .price {
+    color: red;
+    text-align: center;
+    margin-top: -35px;
+}
+
+
+.first_chioce .content_pic ul li .black02 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.1);
+    width: 220px;
+    height: 310px;
+    display: none;
+}
+.first_chioce .content_pic ul li .black02 a {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #c78a49;
+    color: #fff;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    margin-top: 180px;
+    margin-left: 50px;
+
+}
+/*品牌*/
+.brand ul {
+    float: left;
+    display: block;
+    margin-top: 10px;
+}
+.brand ul li {
+    float: left;
+    margin: 0 auto;
+}
+
+.brand ul li a {
+    display: block;
+   margin: 0 8px;
+    width: 210px;
+    height: 92px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+.brand ul li.first_01 a {
+    padding-left: 0;
+}
+.brand ul li.last_01 a {
+    padding-right: 0;
+}
+.brand ul li a img {
+
+    width: 210px;
+    height: 92px;
+    margin-bottom: 40px;
+    transition: all 0.1s;
+}
+.brand ul li a img:hover {
+    transform: translateX(-50px);
+}
+
+/*用户体验*/
+.experience {
+    display: block;
+    width: 100%;
+    height: 618px;
+    background-color: #f4f0ea;
+}
+.experience .qz_container a h2 {
+    padding-top: 60px;
+    display: block;
+    margin-top: 0;
+}
+.experience .shunxu_pic {
+    float: left;
+}
+.experience .shunxu_pic li {
+    float:left;
+}
+.experience .shunxu_pic li a {
+    display: block;
+    width: 276px;
+    height: 276px;
+    margin: 0 4px;
+    overflow: hidden;
+
+}
+.experience .shunxu_pic li a img{
+    display: block;
+    width: 276px;
+    height: 276px;
+    margin: 0 4px;
+    transition: all 0.4s;
+}
+.experience .shunxu_pic li a img:hover {
+    transform: scale(1.1);
+}
+.experience .shunxu_titlt {
+    float: left;
+    display: block;
+}
+.experience .shunxu_titlt li {
+    float: left;
+    width: 276px;
+    height: 158px;
+    background: #fff;
+    margin: 0 4px;
+    display: block;
+}
+.experience .shunxu_titlt li span {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    padding: 0 8px;
+}
+.experience .shunxu_titlt li span.white_line {
+    display: block;
+    width: 240px;
+    height: 15px;
+    background: #fff;
+    margin-top:-5px;
+    text-align: center;
+    margin-left: 10px;
+}
+.experience .shunxu_titlt li span.t1 {
+   /* margin-top: 20px;*/
+    /*display: block;*/
+    font-size: 14px;
+    font-weight: 600;
+    float: left;
+    line-height: 24px;
+}
+.experience .shunxu_titlt li span.t2 {
+       color: red;
+    margin-top: -20px;
+}
+.experience .shunxu_titlt li span.t3 {
+    text-align: justify;
+    display: block;
+    line-height: 16px;
+    color: #333;
+    margin-top: -14px;
+    padding: 0 8px;
+
+}
+.experience .shunxu_titlt li span.t4 {
+    display: block;
+    text-align: left;
+    margin-top: -16px;
+    color: #777;
+
+
+
+}
